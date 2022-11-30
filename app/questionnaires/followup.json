@@ -1,0 +1,67 @@
+{
+    "title": "Follow Up",
+    "instructions": "Please answer the following questions.",
+    "code": "",
+    "questions": [
+        {
+            "questiontype": "field",
+            "instructions": "Please enter the same email as on the initial study:",
+            "decimals": 0,
+            "width": 500,
+            "min": 0,
+            "max": 100,
+            "id": "email"
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "On a scale of 1 to 5, how interested are you in learning hotkeys (keyboard shortcuts)?",
+            "id": "interest",
+            "dropheight": 104,
+            "items": [
+                "1 (lowest)",
+                "2",
+                "3",
+                "4",
+                "5 (highest)"
+            ]
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "On a scale of 1 to 5, how valuable do you think hotkeys(keyboard shortcuts) are?",
+            "id": "value",
+            "dropheight": 104,
+            "items": [
+                "1 (lowest)",
+                "2",
+                "3",
+                "4",
+                "5 (highest)"
+            ]
+        },
+        {
+            "questiontype": "field",
+            "instructions": "How many times a day (on average) do you use a hotkey (keyboard shortcut)?",
+            "decimals": 0,
+            "width": 60,
+            "min": 0,
+            "max": 1000,
+            "id": "often"
+        },
+        {
+            "questiontype": "drop_down",
+            "instructions": "Did you use more hotkeys in the week since you completed the training exercise?",
+            "id": "use",
+            "dropheight": 104,
+            "items": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "questiontype": "multi_field",
+            "instructions": "We would like to see how many of the commands you remember from the set that you studied last week.  Please enter as many as you remember in the format: <br/>command: hotkey,<br/> separating each pair with a comma.",
+            "height":"100",
+            "id": "memory"
+        }
+    ]
+}
